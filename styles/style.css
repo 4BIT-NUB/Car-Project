@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent-container{
+    padding: 10px;
+    display: flex;
+    height:  600px;
+    background-image: url(../images/dodge_challenger_1970_pictures_1.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+.child-container{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 100px;
+    color: aliceblue;
+    
+}
+.child-container>h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: cornsilk;
+    
+}
+.child-container>button{
+    padding: 15px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: large;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 5px;
+}
+.emty{
+    width: 50%;
+}
+
+
+.titl-h{
+    padding-top: 20px;
+}
+.second-title{
+    background-color: bisque;
+}
+
+.second-title>h2{
+    text-align: center;
+    padding: 20px;
+}
